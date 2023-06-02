@@ -1,0 +1,304 @@
+@media (max-width: 1200px) {
+  .bottom-line {
+    width: 180px;
+    height: 5px;
+    margin-top: 5px;
+  }
+  .page-header-menu .wrapper .name {
+    width: 230px;
+  }
+  .page-header-menu .logo {
+    width: 70px;
+    padding-right: 15px;
+  }
+  .page-header-menu li.desktop {
+    display: none;
+  }
+  .page-header-menu li.mobile {
+    display: inline-block;
+  }
+  .page-content .company {
+    text-align: center;
+  }
+  .page-content .company .container {
+    background-color: #084d828e;
+    background-image: linear-gradient(to right, #084d82af, #084d82af), url(../img/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    padding: 126px 0px;
+  }
+  .page-content .company .container .welcome {
+    padding: 30px 0;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .page-content .company .container .tagline {
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .page-content .company .container .buttons {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .page-content .company .container .buttons .box {
+    width: 230px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 15px;
+  }
+  .page-content .company .container .buttons .box p {
+    padding: 17px;
+    font-size: 26px;
+  }
+  .page-content .company .container .buttons .our-projects .box {
+    background-color: #00c5bb;
+  }
+  .page-content .company .container .buttons .our-projects p {
+    color: #ffffff;
+  }
+  .page-content .company .container .buttons .learn-more .box {
+    background-color: #e8e8e8;
+  }
+  .page-content .company .container .buttons .learn-more p {
+    color: #595959;
+  }
+  .page-content .company .container .business {
+    width: 1905px;
+    height: 500px;
+  }
+  .page-content .services .container p.sctitle {
+    font-size: 60px;
+  }
+  .page-content .services .container-grid {
+    text-align: center;
+  }
+  .page-content .services .container-grid .wrapper {
+    display: inline;
+  }
+  .page-content .services .container-grid .wrapper .cell {
+    width: 85%;
+    height: 1000px;
+    margin: 30px auto;
+  }
+  .page-content .services .container-grid .wrapper .cell img {
+    width: 100%;
+    height: 600px;
+  }
+  .page-content .services .container-grid .wrapper .cell p.title {
+    font-size: 70px;
+  }
+  .page-content .services .container-grid .wrapper .cell p.subtitle {
+    font-size: 40px;
+  }
+  .page-content .us .container .wrapper p.sctitle {
+    font-size: 50px;
+  }
+  .page-content .us .container-grid {
+    text-align: center;
+  }
+  .page-content .us .container-grid .wrapper {
+    display: inline;
+  }
+  .page-content .us .container-grid .wrapper .cell {
+    margin: 30px auto;
+    height: auto;
+    width: 65%;
+  }
+  .page-content .us .container-grid .wrapper .cell img {
+    width: 420px;
+    height: 420px;
+  }
+  .page-content .us .container-grid .wrapper .cell p.title {
+    font-size: 50px;
+  }
+  .page-content .projects .container .wrapper p.sctitle {
+    font-size: 60px;
+  }
+  .page-content .projects .container-grid .wrapper {
+    display: inline;
+  }
+  .page-content .projects .container-grid .wrapper .cell {
+    width: 85%;
+    height: 700px;
+    margin: 30px auto;
+  }
+  .page-content .projects .container-grid .wrapper .cell img {
+    height: 100%;
+  }
+  .page-content .projects .container-grid .wrapper .cell .box {
+    height: 130px;
+    top: -130px;
+  }
+  .page-content .projects .container-grid .wrapper .cell .box:hover {
+    height: 700px;
+    background-color: #084d82c1;
+  }
+  .page-content .projects .container-grid .wrapper .cell .box:hover p.subtitle {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.2s;
+  }
+  .page-content .projects .container-grid .wrapper .cell p.title {
+    font-size: 57px;
+    padding-top: 30px;
+    white-space: nowrap;
+  }
+  .page-content .projects .container-grid .wrapper .cell p.subtitle {
+    font-size: 50px;
+  }
+  .page-content .news .container .wrapper p.sctitle {
+    font-size: 60px;
+  }
+  .page-content .news .container-grid .wrapper {
+    display: inline;
+  }
+  .page-content .news .container-grid .wrapper .cell {
+    margin: auto;
+    width: 80%;
+    height: auto;
+  }
+  .page-content .news .container-grid .wrapper .cell img {
+    height: 600px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container p.title {
+    font-size: 50px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container p.subtitle {
+    font-size: 40px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .date-vector {
+    width: 50px;
+    height: 50px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .date {
+    font-size: 30px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .author-vector {
+    height: 50px;
+    width: 50px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .author {
+    font-size: 30px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .box {
+    width: 250px;
+    padding: 15px;
+  }
+  .page-content .news .container-grid .wrapper .cell .container .box p {
+    font-size: 35px;
+  }
+  .page-content .partners .container .wrapper p.sctitle {
+    font-size: 60px;
+  }
+  .page-content .testimonials .container p.sctitle {
+    font-size: 60px;
+  }
+  .page-content .sign-up .container .wrapper p.sctitle {
+    font-size: 60px;
+  }
+}
+@media (max-width: 900px) {
+  .page-content .company {
+    text-align: center;
+  }
+  .page-content .company .container {
+    background-color: #084d828e;
+    background-image: linear-gradient(to right, #084d82af, #084d82af), url(../img/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    padding: 126px 0px;
+  }
+  .page-content .company .container .welcome {
+    padding: 30px 0;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .page-content .company .container .tagline {
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .page-content .company .container .buttons {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .page-content .company .container .buttons .box {
+    width: 1000px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 15px;
+  }
+  .page-content .company .container .buttons .box p {
+    padding: 17px;
+    font-size: 30px;
+  }
+  .page-content .company .container .buttons .our-projects .box {
+    background-color: #00c5bb;
+  }
+  .page-content .company .container .buttons .our-projects p {
+    color: #ffffff;
+  }
+  .page-content .company .container .buttons .learn-more .box {
+    background-color: #e8e8e8;
+  }
+  .page-content .company .container .buttons .learn-more p {
+    color: #595959;
+  }
+  .page-content .company .container .business {
+    width: 1905px;
+    height: 500px;
+  }
+  .page-content .services .container {
+    text-align: center;
+  }
+  .page-content .services .container .wrapper p {
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+  }
+  .page-content .services .container-grid .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+  }
+  .page-content .services .container-grid .wrapper .cell {
+    width: 31%;
+    height: 450px;
+    background-color: #084d82;
+  }
+  .page-content .services .container-grid .wrapper .cell img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+  }
+  .page-content .services .container-grid .wrapper .cell p.title {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+  }
+  .page-content .services .container-grid .wrapper .cell p.subtitle {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+  }
+}

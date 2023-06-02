@@ -2,6 +2,7 @@
     <head>
         <title>Birtup</title>
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/media.css">
         <script defer src="js/index.js"></script>
     </head>
 
@@ -30,12 +31,13 @@
                     </a>
                 </div>
                 <ul class="menu">
-                    <li><a href="">Главная</a></li>
-                    <li><a href="">Про нас</a></li>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Новости</a></li>
-                    <li><a href="">Магазин</a></li>
-                    <li><a href="">Обратная связь</a></li>
+                    <li class="desktop"><a href="">Главная</a></li>
+                    <li class="desktop"><a href="">Про нас</a></li>
+                    <li class="desktop"><a href="">Услуги</a></li>
+                    <li class="desktop"><a href="">Новости</a></li>
+                    <li class="desktop"><a href="">Магазин</a></li>
+                    <li class="desktop"><a href="">Обратная связь</a></li>
+                    <li class="mobile"><a href="">МЕНЮ</a></li>
                 </ul>
             </div>
         </div>
@@ -48,21 +50,21 @@
                     <p class="welcome">Добро пожаловать на Birtup</p>
                     <p class="tagline">Мы сделаем ваше дело большим.</p>
                     <div class="buttons">
-                    <div class="our-projects">
-                        <a href="" target="_blank">
-                        <div class="box">
-                            <p>Наши проекты</p>
+                        <div class="our-projects">
+                            <a href="" target="_blank">
+                            <div class="box">
+                                <p>Наши проекты</p>
+                            </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <div class="learn-more">
-                        <a href="" target="_blank">
-                        <div class="box">
-                            <p>Больше</p>
+                        <div class="learn-more">
+                            <a href="" target="_blank">
+                            <div class="box">
+                                <p>Больше</p>
+                            </div>
+                            </a>
                         </div>
-                        </a>
                     </div>
-                </div>
                 </div>
             </div>
 
@@ -71,7 +73,7 @@
             <div class="services">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Наши услуги</p>
+                        <p class="sctitle">Наши услуги</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
@@ -80,7 +82,7 @@
                         <div class="cell">
                             <img src="img/management training.png" alt="">
                             <p class="title">Тренировка менеджмента</p>
-                            <p class="subtitle">Мы помогаем нашим клиентам освоить все тонкости менджемента, помогаем изучать новое и применять знания на практике.</p>
+                            <p class="subtitle">Мы помогаем нашим клиентам освоить все тонкости менеджемента, помогаем изучать новое и применять знания на практике.</p>
                         </div>
                         <div class="cell">
                             <img src="img/statistics.jpg">
@@ -101,7 +103,7 @@
             <div class="us">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Почему вы должны выбрать нас?</p>
+                        <p class="sctitle">Почему вы должны выбрать нас?</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
@@ -154,12 +156,12 @@
                 </div>
             </div>
 
-            <!-- Наши проекты -->
+            <!-- Наши возможности -->
             
             <div class="projects">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Наши проекты</p>
+                        <p class="sctitle">Наши возможности</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
@@ -175,7 +177,7 @@
                         <div class="cell">
                             <img src="img/statistics.jpg">
                             <div class="box">
-                                <p class="title">Введение и анализ статистики</p>
+                                <p class="title">Ведение и анализ статистики</p>
                                 <p class="subtitle">Наша цель - сделать ваш продукт на основе спроса и актуальности предложений как вашего, так и рынка.</p>
                             </div>
                         </div>
@@ -215,7 +217,7 @@
             <div class="news">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Последние новости</p>
+                        <p class="sctitle">Последние новости</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
@@ -223,54 +225,60 @@
                     <div class="wrapper">
                         <div class="cell">
                             <img src="img/management training.png">
-                            <p class="title">Нанимаем работников управления</p>
-                            <div class="info">
+                            <div class="container">
+                                <p class="title">Нанимаем работников управления</p>
+                                <div class="info">
                                 <img src="svg/calendar.svg" class="date-vector">
                                 <p class="date">Апрель 14, 2023</p>
                                 <div class="vertical-line"></div>
                                 <img src="svg/person.svg" class="author-vector">
                                 <a href="" class="author">Admin</a>
-                            </div>
-                            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam non atque excepturi facere.</p>
-                            <a href="" target="_blank">
+                                </div>
+                                <p class="subtitle">Lorem ipsum dolor sit   amet consectetur adipisicing elit. Velit  aliquam non atque excepturi facere.</p>
+                                <a href="" target="_blank">
                                 <div class="box">
                                     <p>БОЛЬШЕ</p>
                                 </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                         <div class="cell">
                             <img src="img/statistics.jpg">
-                            <p class="title">Улучшение системы защиты</p>
-                            <div class="info">
+                            <div class="container">
+                                <p class="title">Улучшение системы защиты</p>
+                                <div class="info">
                                 <img src="svg/calendar.svg" class="date-vector">
                                 <p class="date">Апрель 14, 2023</p>
                                 <div class="vertical-line"></div>
                                 <img src="svg/person.svg" class="author-vector">
                                 <a href="" class="author">Admin</a>
-                            </div>
-                            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam non atque excepturi facere.</p>
-                            <a href="" target="_blank">
+                                </div>
+                                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam non atque excepturi facere.</p>
+                                <a href="" target="_blank">
                                 <div class="box">
                                     <p>БОЛЬШЕ</p>
                                 </div>
                             </a>
+                            </div>
                         </div>
                         <div class="cell">
                             <img src="img/consulting.jpg">
-                            <p class="title">План инвестиций</p>
-                            <div class="info">
+                            <div class="container">
+                                <p class="title">План инвестиций</p>
+                                <div class="info">
                                 <img src="svg/calendar.svg" class="date-vector">
                                 <p class="date">Апрель 14, 2023</p>
                                 <div class="vertical-line"></div>
                                 <img src="svg/person.svg" class="author-vector">
                                 <a href="" class="author">Admin</a>
-                            </div>
-                            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam non atque excepturi facere.</p>
-                            <a href="" target="_blank">
+                                </div>
+                                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam non atque excepturi facere.</p>
+                                <a href="" target="_blank">
                                 <div class="box">
                                     <p>БОЛЬШЕ</p>
                                 </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -281,7 +289,7 @@
             <div class="partners">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Бизнес-партнёры</p>
+                        <p class="sctitle">Бизнес-партнёры</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
@@ -297,12 +305,12 @@
 
             <div class="testimonials">
                 <div class="container">
-                    <p>Отзывы</p>
+                    <p class="sctitle">Отзывы</p>
                     <div class="bottom-line"></div>
                     <div class="container-grid">    
-                            <div class="cell-left">
+                            <div class="cell left">
                                 <img src="img/succesfull-fella.jpg">
-                                <div class="cell">
+                                <div class="textinfo">
                                     <p class="name">КОРИИ АНТОНИО</p>
                                     <p class="occupation">Компания "Уолл-Стрит"</p>
                                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -312,9 +320,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="cell-right">
-                                <img src="img/succesfull-man.jpg">
-                                <div class="cell">
+                            <div class="cell right">
+                                <div class="textinfo">
                                     <p class="name">ПЕРЕЛЛ БРАУН</p>
                                     <p class="occupation">Компания "Уолл-Стрит"</p>
                                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -323,6 +330,7 @@
                                         dolorum. Ambasing.
                                     </p>
                                 </div>
+                                <img src="img/succesfull-man.jpg">
                             </div>
                     </div>
                     <div class="page-slider">
@@ -338,7 +346,7 @@
             <div class="sign-up">
                 <div class="container">
                     <div class="wrapper">
-                        <p>Зарегистрироваться</p>
+                        <p class="sctitle">Зарегистрироваться</p>
                         <div class="bottom-line"></div>
                     </div>
                 </div>
