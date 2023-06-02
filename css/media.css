@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  .sctitle {
+    font-size: 60px;
+  }
   .bottom-line {
     width: 180px;
     height: 5px;
@@ -73,135 +76,169 @@
     width: 1905px;
     height: 500px;
   }
-  .page-content .services .container p.sctitle {
+  .page-content .services p.sctitle {
     font-size: 60px;
   }
-  .page-content .services .container-grid {
+  .page-content .services .wrapper .container-grid {
     text-align: center;
+    display: inline-block;
   }
-  .page-content .services .container-grid .wrapper {
-    display: inline;
-  }
-  .page-content .services .container-grid .wrapper .cell {
+  .page-content .services .wrapper .container-grid .cell {
     width: 85%;
     height: 1000px;
-    margin: 30px auto;
+    margin: 100px auto;
   }
-  .page-content .services .container-grid .wrapper .cell img {
+  .page-content .services .wrapper .container-grid .cell img {
     width: 100%;
     height: 600px;
   }
-  .page-content .services .container-grid .wrapper .cell p.title {
+  .page-content .services .wrapper .container-grid .cell p.title {
     font-size: 70px;
   }
-  .page-content .services .container-grid .wrapper .cell p.subtitle {
+  .page-content .services .wrapper .container-grid .cell p.subtitle {
     font-size: 40px;
   }
-  .page-content .us .container .wrapper p.sctitle {
-    font-size: 50px;
-  }
-  .page-content .us .container-grid {
+  .page-content .us .wrapper .container-grid {
     text-align: center;
-  }
-  .page-content .us .container-grid .wrapper {
     display: inline;
   }
-  .page-content .us .container-grid .wrapper .cell {
-    margin: 30px auto;
+  .page-content .us .wrapper .container-grid .cell {
+    margin: 100px auto;
     height: auto;
-    width: 65%;
+    width: 80%;
   }
-  .page-content .us .container-grid .wrapper .cell img {
-    width: 420px;
-    height: 420px;
+  .page-content .us .wrapper .container-grid .cell img {
+    width: 500px;
+    height: 500px;
   }
-  .page-content .us .container-grid .wrapper .cell p.title {
+  .page-content .us .wrapper .container-grid .cell p.title {
     font-size: 50px;
   }
-  .page-content .projects .container .wrapper p.sctitle {
+  .page-content .projects .wrapper p.sctitle {
     font-size: 60px;
   }
-  .page-content .projects .container-grid .wrapper {
+  .page-content .projects .wrapper .container-grid {
     display: inline;
   }
-  .page-content .projects .container-grid .wrapper .cell {
+  .page-content .projects .wrapper .container-grid .cell {
     width: 85%;
     height: 700px;
     margin: 30px auto;
   }
-  .page-content .projects .container-grid .wrapper .cell img {
+  .page-content .projects .wrapper .container-grid .cell img {
     height: 100%;
   }
-  .page-content .projects .container-grid .wrapper .cell .box {
+  .page-content .projects .wrapper .container-grid .cell .box {
     height: 130px;
     top: -130px;
   }
-  .page-content .projects .container-grid .wrapper .cell .box:hover {
+  .page-content .projects .wrapper .container-grid .cell .box:hover {
+    top: -100%;
     height: 700px;
     background-color: #084d82c1;
   }
-  .page-content .projects .container-grid .wrapper .cell .box:hover p.subtitle {
+  .page-content .projects .wrapper .container-grid .cell .box:hover p.subtitle {
     visibility: visible;
     opacity: 1;
     transition: 0.2s;
   }
-  .page-content .projects .container-grid .wrapper .cell p.title {
+  .page-content .projects .wrapper .container-grid .cell p.title {
     font-size: 57px;
     padding-top: 30px;
     white-space: nowrap;
   }
-  .page-content .projects .container-grid .wrapper .cell p.subtitle {
+  .page-content .projects .wrapper .container-grid .cell p.subtitle {
     font-size: 50px;
   }
-  .page-content .news .container .wrapper p.sctitle {
+  .page-content .news .wrapper p.sctitle {
     font-size: 60px;
   }
-  .page-content .news .container-grid .wrapper {
+  .page-content .news .wrapper .container-grid {
     display: inline;
   }
-  .page-content .news .container-grid .wrapper .cell {
-    margin: auto;
+  .page-content .news .wrapper .container-grid .cell {
+    margin: 50px auto;
     width: 80%;
     height: auto;
   }
-  .page-content .news .container-grid .wrapper .cell img {
+  .page-content .news .wrapper .container-grid .cell img {
     height: 600px;
   }
-  .page-content .news .container-grid .wrapper .cell .container p.title {
+  .page-content .news .wrapper .container-grid .cell .container p.title {
     font-size: 50px;
   }
-  .page-content .news .container-grid .wrapper .cell .container p.subtitle {
+  .page-content .news .wrapper .container-grid .cell .container p.subtitle {
     font-size: 40px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .date-vector {
+  .page-content .news .wrapper .container-grid .cell .container .info .date-vector {
     width: 50px;
     height: 50px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .date {
+  .page-content .news .wrapper .container-grid .cell .container .info .date {
     font-size: 30px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .author-vector {
+  .page-content .news .wrapper .container-grid .cell .container .info .author-vector {
     height: 50px;
     width: 50px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .author {
+  .page-content .news .wrapper .container-grid .cell .container .info .author {
     font-size: 30px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .box {
+  .page-content .news .wrapper .container-grid .cell .container .box {
     width: 250px;
     padding: 15px;
   }
-  .page-content .news .container-grid .wrapper .cell .container .box p {
+  .page-content .news .wrapper .container-grid .cell .container .box p {
     font-size: 35px;
   }
   .page-content .partners .container .wrapper p.sctitle {
     font-size: 60px;
   }
-  .page-content .testimonials .container p.sctitle {
-    font-size: 60px;
+  .page-content .testimonials .wrapper .container-grid {
+    display: inline-block;
+    margin: auto 0;
   }
-  .page-content .sign-up .container .wrapper p.sctitle {
-    font-size: 60px;
+  .page-content .testimonials .wrapper .container-grid .name {
+    font-size: 50px;
+    padding-bottom: 7px;
+  }
+  .page-content .testimonials .wrapper .container-grid .occupation {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .page-content .testimonials .wrapper .container-grid .text {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .page-content .testimonials .wrapper .container-grid img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
+  .page-content .testimonials .wrapper .container-grid .cell {
+    width: 100%;
+  }
+  .page-content .testimonials .wrapper .container-grid .cell.left {
+    margin-right: 0;
+  }
+  .page-content .testimonials .wrapper .container-grid .cell.right {
+    margin-left: 0;
+  }
+  .page-content .sign-up .wrapper .container-grid .box {
+    width: 900px;
+  }
+  .page-content .sign-up .wrapper .container-grid .box p {
+    font-size: 25px;
+  }
+  .page-content .sign-up .wrapper .container-grid .input {
+    padding: 50px;
+  }
+  .page-content .sign-up .wrapper .container-grid input {
+    font-size: 40px;
+  }
+  .page-content .sign-up .wrapper .container-grid button {
+    width: 300px;
+    font-size: 35px;
   }
 }
 @media (max-width: 900px) {

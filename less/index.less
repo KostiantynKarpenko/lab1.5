@@ -23,6 +23,13 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
     padding: 0 30px;
 }
 
+.sctitle{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
 .bottom-line{
     display: inline-block;
     width: 90px;
@@ -221,13 +228,6 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
         text-align: center;
 
         .wrapper{
-            
-            p{
-                color: #2c2c2c;
-                font-size: 25px;
-                font-weight: bold;
-                padding-bottom: 7px;
-            }
 
             .container-grid{
                 display: flex;
@@ -273,12 +273,6 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
         background-color: #efefef;
 
         .wrapper{
-            p{
-                color: #2c2c2c;
-                font-size: 25px;
-                font-weight: bold;
-                padding-bottom: 7px;
-            }
 
             .container-grid{
                 background-color: #efefef;
@@ -428,7 +422,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
     }
 
     .projects{
-        padding: 50px 0 100px 0;
+        padding: 50px 0;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -445,7 +439,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
             display: flex;
             .cell{
                 width: 33.3333%;
-                margin: 20px;
+                margin: 50px 20px;
                 height: 300px;
                 background-color: #084d82;
 
@@ -535,37 +529,24 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
     .news {
         padding: 40px 0;
         background-color: #efefef;
+        display: flex;
+        text-align: center;
+        .wrapper{
 
-        .container{
-            display: flex;
-            text-align: center;
-
-            .wrapper{
-                p{
-                    color: #2c2c2c;
-                    font-size: 25px;
-                    font-weight: bold;
-                    padding-bottom: 7px;
-                }
-            }
-        }
-
-        .container-grid{
-            .wrapper{
+            .container-grid{
                 display: flex;
                 padding-top: 40px;
-
                 .cell{
                     width: 33.3333%;
                     margin: 0 20px;
                     background-color: #ffffff;
-
+    
                     img{
                         width: 100%;
                         height: 225px;
                         object-fit: cover;
                     }
-
+    
                     .container{
                         display: inline-block;
                         padding: 15px;
@@ -654,63 +635,81 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
     .partners {
         padding: 40px 0;
         background-color: #ffffff;
-
-        .container{
-            display: flex;
-            text-align: center;
-
-            .wrapper{
-                p{
-                    color: #2c2c2c;
-                    font-size: 25px;
-                    font-weight: bold;
-                    padding-bottom: 7px;
-                }
-            }
-        }
-
-        .container-grid{
-
-            img{
-                width: 150px;
-                height: 150px;
-                padding: 20px 20px;
-            }
-            
-            .wrapper{
+        display: flex;
+        text-align: center;
+        .wrapper{
+            .container-grid{
                 display: flex;
-                align-items: center;
-                padding-top: 3%;
-                justify-content: center;
-
                 img{
-                    width: 150px;
-                    height: 150px;
-                    padding: 20px 20px;
+                    width: 50%;
+                    padding: 50px 0px;
                 }
             }
         }
+
+        
     }
 
     .testimonials {
+        background-color: #084d828e;
+        text-align: center;
+        background-image: linear-gradient(to right, #084d82c1, #084d82c1),url(../img/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 25%;
 
-        .container{
-            background-color: #084d828e;
-            text-align: center;
-            background-image: linear-gradient(to right, #084d82c1, #084d82c1),url(../img/handshake.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 25%;
+        .wrapper{
+            padding-top:30px;
+
+            p.sctitle{
+                color: #ffffff;
+            }
 
             .bottom-line{
                 background-color: #ffffff;
             }
 
-            p{
-                color: #ffffff;
-                font-size: 25px;
-                font-weight: bold;
-                padding-bottom: 7px;
+            .container-grid{
+                display: flex;
+                p{
+                    color: #ffffff;
+                }
+                .name{
+                    font-size: 21px;
+                    font-weight: bold;
+                    padding-bottom: 7px;
+                }
+                .occupation{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                .text{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                img{
+                    width: 150px;
+                    height: 150px;
+                    margin: auto;
+                }
+                .cell {
+                    width: 50%;
+                    border: 1px solid #a3a3a3;
+                    display: flex;
+                    padding: 25px 0;
+                    margin: 50px 0;
+                }
+                .textinfo{
+                    padding: 0px 15px;
+                }
+                .cell.left {
+                    text-align: left;
+                    margin-right: 20px;
+                }
+                .cell.right{
+                    text-align: right;
+                    margin-left: 20px;
+                }
             }
 
             .page-slider{
@@ -740,99 +739,39 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
                     transition: .2s;
                 }
             }
-        }
-
-        .container-grid{
-            display: flex;
-            align-items: center;
-            padding-top: 45px;
-            justify-content: center;
-
-            .name{
-                font-size: 21px;
-            }
-
-            .occupation{
-                font-size: 18px;
-                font-weight: 400;
-            }
-
-            .text{
-                font-size: 20px;
-                font-weight: 400;
-            }
-
-            img{
-                width: 150px;
-                height: 150px;
-                margin: auto;
-            }
-
-            .cell {
-                width: 50%;
-                border: 1px solid #a3a3a3;
-                display: flex;
-                padding: 25px 0;
-            }
-
-            .textinfo{
-                padding: 0px 15px;
-            }
-
-            .cell.left {
-                text-align: left;
-            }
-
-            .cell.right{
-                text-align: right;
-            }
-        }
+        } 
     }
 
     .sign-up {
-        padding: 40px 0;
+        padding: 0px 0;
         background-color: #ffffff;
+        display: flex;
+        text-align: center;
 
-        .container{
-            display: flex;
-            text-align: center;
-
-            .wrapper{
-                p{
-                    color: #2c2c2c;
-                    font-size: 25px;
-                    font-weight: bold;
-                    padding-bottom: 7px;
-                }
+        .wrapper{
+            align-items: center;
+            justify-content: center;
+            p.sctitle{
+                color: #2c2c2c;
             }
-        }
-
-        .container-grid{
-            .wrapper{
-                align-items: center;
-                padding-top: 50px;
-                justify-content: center;
-
+            .container-grid{
                 .box{
-                    display:flex;
                     width: 700px;
                     margin: auto;
-
                     p{
-                        display: flex;
                         text-align: center;
-                        font-size: 16px;
+                        font-size: 20px;
                         color: #525252;
                     }
                 }
-
+    
                 .input{
                     text-align: center;
                     display: flex;
                     justify-content: center;
                     padding: 30px;
                 }
-
+    
                 input{
                     width: 490px;
                     padding: 14px;
@@ -843,7 +782,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
                     transition: .2s;
                     justify-content: center;
                 }
-
+    
                 button{
                     width: 170px;
                     font-size: 14px;
@@ -853,7 +792,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
                     color: #ffffff;
                     transition:.1s;
                     cursor: pointer;
-
+    
                     &:active{
                         background-color: #1a9a5a;
                         border:transparent;
@@ -862,7 +801,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
                     }
                 }
             }
-        }
+        } 
     }
 }
 
