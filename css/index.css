@@ -174,41 +174,38 @@ p {
 }
 .page-content .services {
   padding: 40px 0;
-}
-.page-content .services .container {
-  display: flex;
   text-align: center;
 }
-.page-content .services .container .wrapper p {
+.page-content .services .wrapper p {
   color: #2c2c2c;
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 7px;
 }
-.page-content .services .container-grid .wrapper {
+.page-content .services .wrapper .container-grid {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 3%;
 }
-.page-content .services .container-grid .wrapper .cell {
+.page-content .services .wrapper .container-grid .cell {
   width: 31%;
   height: 450px;
   background-color: #084d82;
 }
-.page-content .services .container-grid .wrapper .cell img {
+.page-content .services .wrapper .container-grid .cell img {
   width: 100%;
   height: 225px;
   object-fit: cover;
 }
-.page-content .services .container-grid .wrapper .cell p.title {
+.page-content .services .wrapper .container-grid .cell p.title {
   font-size: 23px;
   color: #fff;
   font-weight: 100;
   text-align: left;
   padding: 12px;
 }
-.page-content .services .container-grid .wrapper .cell p.subtitle {
+.page-content .services .wrapper .container-grid .cell p.subtitle {
   font-size: 20px;
   color: #fff;
   font-weight: 100;
@@ -217,82 +214,77 @@ p {
 }
 .page-content .us {
   padding: 40px 0 70px 0;
-  background-color: #efefef;
-}
-.page-content .us .container {
   display: flex;
   text-align: center;
   background-color: #efefef;
 }
-.page-content .us .container .wrapper p {
+.page-content .us .wrapper p {
   color: #2c2c2c;
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 7px;
 }
-.page-content .us .container-grid {
+.page-content .us .wrapper .container-grid {
   background-color: #efefef;
   padding-top: 40px;
-}
-.page-content .us .container-grid .wrapper {
   display: flex;
 }
-.page-content .us .container-grid .wrapper .cell {
+.page-content .us .wrapper .container-grid .cell {
   width: 33.3333%;
   margin: 0px 13px;
   height: 275px;
   border: 1px #b7b7b7 solid;
   background-color: #efefef;
 }
-.page-content .us .container-grid .wrapper .cell img {
+.page-content .us .wrapper .container-grid .cell img {
   width: 200px;
   height: 200px;
   margin: 0 auto;
   display: flex;
   object-fit: cover;
 }
-.page-content .us .container-grid .wrapper .cell p.title {
+.page-content .us .wrapper .container-grid .cell p.title {
   font-size: 23px;
   color: #303030;
   font-weight: 100;
   text-align: center;
   padding: 12px;
 }
-.page-content .callback .container {
+.page-content .callback {
   background-color: #084d82;
 }
-.page-content .callback .container .wrapper {
+.page-content .callback .wrapper {
   display: flex;
   justify-content: space-between;
   padding: 60px;
 }
-.page-content .callback .container .wrapper .box-text {
+.page-content .callback .wrapper .box-text {
   width: 40%;
 }
-.page-content .callback .container .wrapper .box-text .bottom-line {
+.page-content .callback .wrapper .box-text .bottom-line {
   background-color: #efefef;
   margin: 10px;
 }
-.page-content .callback .container .wrapper .box-input {
+.page-content .callback .wrapper .box-input {
   width: 55%;
 }
-.page-content .callback .container .wrapper .box-input::placeholder {
+.page-content .callback .wrapper .box-input::placeholder {
   color: gray;
 }
-.page-content .callback .container .wrapper .box-input ul input {
+.page-content .callback .wrapper .box-input ul input {
   padding-left: 15px;
 }
-.page-content .callback .container .title {
+.page-content .callback .title {
   color: #efefef;
   font-size: 40px;
   padding: 10px;
 }
-.page-content .callback .container .subtitle {
+.page-content .callback .subtitle {
   color: #efefef;
   font-size: 20px;
   padding: 10px;
 }
-.page-content .callback .container input {
+.page-content .callback input {
   width: 300px;
   padding: 15px 0 15px 0;
   font-size: 20px;
@@ -302,10 +294,10 @@ p {
   outline: none;
   transition: border-color 0.2s;
 }
-.page-content .callback .container input:focus-within {
+.page-content .callback input:focus-within {
   border-color: #000000c5;
 }
-.page-content .callback .container select {
+.page-content .callback select {
   width: 300px;
   padding: 15px 0 15px 15px;
   font-size: 20px;
@@ -316,10 +308,10 @@ p {
   color: grey;
   transition: border-color 0.2s;
 }
-.page-content .callback .container ul {
+.page-content .callback ul {
   display: inline;
 }
-.page-content .callback .container button {
+.page-content .callback button {
   margin-left: 10px;
   margin-bottom: 15px;
   width: 20%;
@@ -333,7 +325,7 @@ p {
   color: #ffffff;
   transition: 0.1s;
 }
-.page-content .callback .container button:active {
+.page-content .callback button:active {
   margin-left: 10px;
   margin-bottom: 15px;
   width: 20%;
@@ -347,43 +339,38 @@ p {
   color: #c8c8c8;
   transition: 0.1s;
 }
-.page-content .callback .container .box p {
+.page-content .callback .box p {
   font-size: 15px;
   color: #efefef;
   padding: 18px;
 }
 .page-content .projects {
   padding: 50px 0 100px 0;
-}
-.page-content .projects .container {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.page-content .projects .container .wrapper p {
+.page-content .projects .wrapper p {
   color: #2c2c2c;
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 7px;
 }
-.page-content .projects .container-grid .wrapper {
+.page-content .projects .container-grid {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 3%;
 }
-.page-content .projects .container-grid .wrapper .cell {
+.page-content .projects .container-grid .cell {
   width: 33.3333%;
   margin: 20px;
   height: 300px;
   background-color: #084d82;
 }
-.page-content .projects .container-grid .wrapper .cell img {
+.page-content .projects .container-grid .cell img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-.page-content .projects .container-grid .wrapper .cell .box {
+.page-content .projects .container-grid .cell .box {
   position: relative;
   top: -50px;
   width: 100%;
@@ -393,17 +380,17 @@ p {
   transition: 0.2s;
   overflow: hidden;
 }
-.page-content .projects .container-grid .wrapper .cell .box:hover {
+.page-content .projects .container-grid .cell .box:hover {
   top: -100%;
   height: 300px;
   background-color: #084d82c1;
 }
-.page-content .projects .container-grid .wrapper .cell .box:hover p.subtitle {
+.page-content .projects .container-grid .cell .box:hover p.subtitle {
   visibility: visible;
   opacity: 1;
   transition: 0.2s;
 }
-.page-content .projects .container-grid .wrapper .cell p.title {
+.page-content .projects .container-grid .cell p.title {
   font-size: 23px;
   color: #fff;
   font-weight: 100;
@@ -411,7 +398,7 @@ p {
   padding: 12px;
   opacity: 100%;
 }
-.page-content .projects .container-grid .wrapper .cell p.subtitle {
+.page-content .projects .container-grid .cell p.subtitle {
   visibility: hidden;
   opacity: 0;
   font-size: 20px;
@@ -557,6 +544,11 @@ p {
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 7px;
+}
+.page-content .partners .container-grid img {
+  width: 150px;
+  height: 150px;
+  padding: 20px 20px;
 }
 .page-content .partners .container-grid .wrapper {
   display: flex;
