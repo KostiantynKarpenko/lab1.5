@@ -1,0 +1,1109 @@
+html, body  {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+/*..........................................................*/
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header-info .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header-info{
+    background-color: #084d82;  
+    font-size: 20px;
+}
+
+.page-header-info .info img{
+    width: 20px;
+}
+
+.page-header-info .info li{
+    display: flex;
+}
+
+.page-header-info .info li a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-header-info .social-media{
+    display: flex;
+    padding-right: 0px;
+}
+
+.page-header-info .social-media img{
+    width: 20px ;
+}
+
+.page-header-info .social-media li a{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-header-info .info{
+    display: flex;
+    align-items: center;
+}
+
+/*..........................................................*/
+
+.page-header-menu .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.page-header-menu li a{
+    display: inline-block;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.page-header-menu li a:hover{
+    color: #000000;
+    transition: .2s;
+}
+
+.page-header-menu .logo{
+    width: 50px;
+    padding-right: 15px;
+}
+
+.page-header-menu .wrapper .name{
+    width: 150px;
+}
+
+.page-header-menu .wrapper .company a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.page-header-menu .menu{
+    display: flex;
+    padding: 3% 0% 3% 24%;
+}
+
+.page-header-menu .menu li a{
+    display: inline-block;
+    padding-right: 40px;
+    align-items: center;
+}
+
+/*....................Добро пожаловать....................*/
+
+.page-content .company{
+    text-align: center;
+}
+
+.page-content .company .container{
+    background-color: #084d828e;
+    background-image: linear-gradient(to right, #084d82af, #084d82af),url(../img/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    padding: 126px 0px;
+}
+
+.page-content .company .container .welcome{
+    padding: 30px 0;
+}
+
+.page-content .company .container .tagline{
+    padding-bottom: 60px;
+}
+
+.page-content .company .business{
+    width: 1905px;
+    height: 500px;
+}
+
+.page-content .company .container .welcome{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.page-content .company .container .tagline{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.page-content .company .container .buttons{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.page-content .company .buttons .our-projects .box{
+    background-color: rgb(0, 197, 187);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.page-content .company .buttons .our-projects p{
+    color: #ffffff;
+    padding: 17px;
+}
+
+.page-content .company .buttons .learn-more .box{
+    background-color: rgb(232, 232, 232);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 15px;
+}
+
+.page-content .company .buttons .learn-more .box p{
+    color: #595959;
+    padding: 17px;
+}
+
+.page-content .company .buttons .box{
+    width: 140px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*....................Наши услуги....................*/
+
+.page-content .services {
+    padding: 40px 0;
+}
+
+.page-content .services .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-content .services .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.bottom-line{
+    display: inline-block;
+    width: 90px;
+    height: 3px;
+    background-color: #2c2c2c;
+}
+
+.page-content .services .container-grid .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.page-content .services .container-grid .wrapper .cell{
+    width: 375px;
+    height: 450px;
+    background-color: #084d82;
+}
+
+.page-content .services .container-grid .wrapper .cell img{
+    width: 375px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.page-content .services .container-grid .wrapper .cell p.title{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+}
+
+.page-content .services .container-grid .wrapper .cell p.subtitle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+}
+
+/*......................Почему мы?......................*/
+
+.page-content .us{
+    padding: 40px 0 70px 0;
+    background-color: #efefef;
+}
+
+.page-content .us .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.page-content .us .container-grid{
+    background-color: #efefef;
+    padding-top: 40px;
+}
+
+.page-content .us .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .us .container-grid .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-content .us .container-grid .wrapper .cell{
+    display: inline-block;
+    justify-content: center;
+    width: 275px;
+    height: 275px;
+    border: 1px #b7b7b7 solid; 
+    background-color: #efefef;
+}
+
+.page-content .us .container-grid .wrapper .cell img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    object-fit: cover;
+}
+
+.page-content .us .container-grid .wrapper .cell p.title{
+    font-size: 23px;
+    color: #303030;
+    font-weight: 100;
+    text-align: center;
+    padding: 12px;
+}
+
+.page-content .us .container-grid .wrapper .cell p.subtitle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+}
+
+/*.....................Мы вам перезвоним.....................*/
+
+.page-content .callback .container{
+    background-color: #084d82;
+}
+
+.page-content .callback .container .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+
+.page-content .callback .container .wrapper .box-text{
+    width: 40%;
+}
+
+.page-content .callback .container .wrapper .box-input{
+    width: 55%;
+}
+
+.page-content .callback .container .wrapper .box-input ::placeholder{
+    color: gray;
+}
+
+.page-content .callback .container .title{
+    color: #efefef;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.page-content .callback .container .wrapper .box-text .bottom-line{
+    background-color: #efefef;
+    margin: 10px;
+}
+
+.page-content .callback .container .subtitle{
+    color: #efefef;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.page-content .callback .container input{
+    width: 300px;
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 10px 10px;
+    border: 2px solid rgba(33, 33, 33, 0);
+    outline: none;
+    transition: border-color .2s;
+}
+
+.page-content .callback .container select{
+    width: 300px;
+    padding: 15px 0 15px 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 10px 10px;
+    border: 2px solid rgba(33, 33, 33, 0);
+    outline: none;
+    color: grey;
+    transition: border-color .2s;
+}
+
+.page-content .callback .container input:focus-within{
+    border-color: #000000c5;
+}
+
+.page-content .callback .container ul{
+    display: inline;
+}
+
+.page-content .callback .container button{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 20%;
+    font-size: 17px;
+    padding: 18px 0 15px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #23b46b;
+    border:transparent;
+    font-weight: bold;
+    color: #ffffff;
+    transition:.1s;
+}
+
+.page-content .callback .container button:active{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 20%;
+    font-size: 17px;
+    padding: 18px 0 15px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a9a5a;
+    border:transparent;
+    font-weight: bold;
+    color: #c8c8c8;
+    transition:.1s;
+}
+
+.page-content .callback .box p{
+    font-size: 15px;
+    color: #efefef;
+    padding: 18px;
+}
+
+.page-content .callback .container .wrapper .box-input ul input{
+    padding-left: 15px;
+}
+
+/*...................Наши проекты...................*/
+
+.page-content .projects{
+    padding: 50px 0 100px 0;
+    position: relative;
+}
+
+.page-content .projects .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-content .projects .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .projects .container-grid .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.page-content .projects .container-grid .wrapper .cell{
+    width: 380px;
+    height: 300px;
+    background-color: #084d82;
+    z-index: 50;
+}
+
+.page-content .projects .container-grid .wrapper .cell img{
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.page-content .projects .container-grid .wrapper .cell .box{
+    position: absolute;
+    top: 397px;
+    width: 380px;
+    height: 50px;
+    background-color: #084d82c1;
+    opacity: 100%;
+    transition: .2s;
+    overflow:hidden;
+}
+
+.page-content .projects .container-grid .wrapper .cell .box:hover{
+    position: absolute;
+    top: 147px;
+    width: 380px;
+    height: 300px;
+    background-color: #084d82c1;
+}
+
+.page-content .projects .container-grid .wrapper .cell .box:hover p.subtitle{
+    visibility: visible;
+    opacity: 1;
+    transition: .2s;
+}
+
+
+.page-content .projects .container-grid .wrapper .cell p.title{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+    opacity: 100%;
+}
+
+.page-content .projects .container-grid .wrapper .cell p.subtitle{
+    visibility: hidden;
+    opacity: 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: left;
+    padding: 12px;
+    transition: .2s;
+}
+
+/*.......................Статистика.......................*/
+
+.page-content .statistics{
+    background-image: linear-gradient(to right, #084d82c1, #084d82c1),url(../img/business-management-live.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 55%;
+}
+
+.page-content .statistics .wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+
+.page-content .statistics .wrapper .cell{
+    padding: 30px 0;
+    width: 33.3333%;
+}
+
+.page-content .statistics .wrapper .cell .number{
+    color: #efefef;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+}
+
+.page-content .statistics .wrapper .cell .text{
+    color: #efefef;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*..................Последние новости..................*/
+
+.page-content .news {
+    padding: 40px 0;
+    background-color: #efefef;
+}
+
+.page-content .news .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-content .news .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .news .container-grid .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.page-content .news .container-grid .wrapper .cell{
+    width: 375px;
+    background-color: #ffffff;
+}
+
+.page-content .news .container-grid .wrapper .cell img{
+    width: 375px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.page-content .news .container-grid .wrapper .cell p.title{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+    text-align: left;
+    padding: 20px;
+}
+
+.page-content .news .container-grid .wrapper .cell .info{
+    display:flex;
+}
+
+.page-content .news .container-grid .wrapper .cell .date-vector{
+    color: #ffffff;
+    object-fit: contain;
+    height: 20px;
+    padding: 0 5px 0 20px;
+    margin: 0 0;
+    width: 15px;
+}
+
+.page-content .news .container-grid .wrapper .cell .date{
+    color: #525252;
+    padding-right: 25px;
+}
+
+.page-content .news .container-grid .wrapper .cell .author-vector{
+    color: #ffffff;
+    object-fit: contain;
+    height: 20px;
+    padding: 0 5px 0 25px;
+    margin: 0 0;
+    width: 15px;
+}
+
+.page-content .news .container-grid .wrapper .cell .author{
+    color: #0072d5;
+    transition: .2s;
+}
+
+.page-content .news .container-grid .wrapper .cell .author:hover{
+    color: #01a743;
+    transition: .2s;
+}
+
+.page-content .news .container-grid .wrapper .cell .vertical-line{
+    background-color: #525252;
+    width: 1px;
+    height: 24px;
+}
+
+.page-content .news .container-grid .wrapper .cell p.subtitle{
+    font-size: 17px;
+    color: #525252;
+    font-weight: 100;
+    text-align: left;
+    padding: 13px 20px;
+}
+
+.page-content .news .container-grid .wrapper .cell .box{
+    background-color: #01a743;
+    width: 105px;
+    margin: 20px;
+    margin-top: 0;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+    transition:250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 2px;
+}
+
+.page-content .news .container-grid .wrapper .cell .box:hover{
+    background-color: #1fbe5f;
+    transition:250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.page-content .news .container-grid .wrapper .cell .box p{
+    color: #ffffff;
+}
+
+
+/*.......................Партнёры.......................*/
+
+.page-content .partners {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.page-content .partners .container{
+    display: flex;
+    text-align: center;
+}
+
+.page-content .partners .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .partners .container-grid .wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.page-content .partners .container-grid .wrapper img{
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+}
+
+/*.......................Отзывы......................*/
+
+.page-content .testimonials {
+    padding: 40px 0;
+    justify-self: center;
+}
+
+.page-content .testimonials .container{
+    background-color: #084d828e;
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(to right, #084d82c1, #084d82c1),url(../img/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+}
+
+.page-content .testimonials .container p{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .testimonials .container .bottom-line{
+    background-color: #ffffff;
+}
+
+.page-content .testimonials .container-grid{
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    justify-content: center;
+}
+
+.page-content .testimonials .container img{
+    width: 150px;
+    height: 150px;
+}
+
+.page-content .testimonials .container .cell-left img{
+    padding: 50px 0;
+    padding-right: 20px;
+}
+
+.page-content .testimonials .container .cell-left{
+    width: 580px;
+    border: 1px solid #a3a3a3;
+    display: flex;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.page-content .testimonials .container .cell-right img{
+    padding: 50px 0;
+    padding-left: 20px;
+    float: right;
+}
+
+.page-content .testimonials .container .cell-right{
+    width: 580px;
+    border: 1px solid #a3a3a3;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.page-content .testimonials .container .cell{
+    padding-top: 25px;
+}
+
+.page-content .testimonials .container .cell .name{
+    font-size: 21px;
+}
+
+.page-content .testimonials .container .cell .occupation{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.page-content .testimonials .container .cell .text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page-content .testimonials .container .page-slider{
+    padding-top: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.page-content .testimonials .container .page-slider .box{
+    background-color: #ffffff;
+    width: 40px;
+    height: 5px;
+    transition: .2s;
+}
+
+.page-content .testimonials .container .page-slider .box.active{
+    background-color: #00d28c;
+    width: 40px;
+    height: 5px;
+    transition: .2s;
+}
+
+.page-content .testimonials .container .page-slider .box:hover{
+    cursor: pointer;
+    background-color: #00d28c;
+    transition: .2s;
+}
+
+/*.......................Зарегистрироваться......................*/
+
+.page-content .sign-up {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.page-content .sign-up .container{
+    display: flex;
+    text-align: center;
+}
+
+.page-content .sign-up .container .wrapper p{
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.page-content .sign-up .container-grid .wrapper{
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.page-content .sign-up .container-grid .wrapper .box{
+    display:flex;
+    width: 700px;
+    margin: auto;
+}
+
+.page-content .sign-up .container-grid .wrapper .box p{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    color: #525252;
+}
+
+.page-content .sign-up .container-grid .wrapper .input{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.page-content .sign-up .container-grid .wrapper input{
+    width: 490px;
+    padding: 14px;
+    font-size: 17px;
+    box-sizing: border-box;
+    border: 1px solid #01a743;
+    outline: none;
+    transition: .2s;
+    justify-content: center;
+}
+
+.page-content .sign-up .container-grid .wrapper button{
+    width: 170px;
+    font-size: 14px;
+    padding: 4px 0;
+    background-color: #23b46b;
+    border:transparent;
+    color: #ffffff;
+    transition:.1s;
+    cursor: pointer;
+}
+
+.page-content .sign-up .container-grid .wrapper button:active{
+    background-color: #1a9a5a;
+    border:transparent;
+    color: #c8c8c8;
+    transition:.1s;
+}
+
+/*.......................Футер......................*/
+.page-footer{
+    position: relative;
+    background-image: linear-gradient(to right, #084d82c1, #084d82c1), url(../img/79015AB87FD6D3284472876E1ACC3428.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+}
+
+.page-footer-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-footer .container{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.page-footer .container p{
+    color: #fff;
+}
+
+.page-footer .container h1{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.page-footer .container a{
+    color: #fff;
+}
+
+.page-footer .container .info{
+    display: inline-block;
+    align-items: center;
+}
+
+.page-footer .container .info .company a{
+    display: flex;
+    align-items: center;
+}
+
+.page-footer .container .info .company .logo{
+    width: 50px;
+    padding-right: 15px;
+}
+
+.page-footer .container .info .company .name{
+    width: 150px;
+}
+
+.page-footer .container .info .purpose{
+    width: 310px;
+    padding: 15px 0;
+}
+
+.page-footer .container .info .purpose p{
+    font-size: 17px;
+}
+
+.page-footer .container .contact-us{
+    padding: 23px 0;
+    width: 300px;
+}
+
+.page-footer .container .contact-us a{
+    transition: .2s;
+}
+
+.page-footer .container .contact-us a:hover{
+    color: #15c38c;
+    transition: .2s;
+}
+
+.page-footer .container .company-pages{
+    padding: 23px 0;
+}
+
+.page-footer .container .company-pages a{
+    transition: .2s;
+}
+
+.page-footer .container .company-pages a:hover{
+    color: #15c38c;
+    transition: .2s;
+}
+
+.page-footer .container .gallery{
+    padding: 23px 0;
+}
+
+.page-footer .container .contact-us h1{
+    padding-bottom: 10px;
+}
+
+.page-footer .container .contact-us ul li{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.page-footer .container .contact-us img{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.page-footer .container .company-pages{
+    width: 270px;
+}
+
+.page-footer .container .company-pages ul{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.page-footer .container .company-pages ul li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    transition: .2s;
+    
+}
+
+.page-footer .container .company-pages ul li:hover a{
+    color: #15c38c;
+    transition: .2s;
+}
+
+.page-footer .container .company-pages ul li:hover .dot{
+    background-color: #15c38c;
+    transition: .2s;
+}
+
+
+.page-footer .container .company-pages .dot{
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: .2s;
+}
+
+.page-footer .container .company-pages a:hover .dot{
+    background-color: #15c38c;
+}
+
+.page-footer .container .gallery{
+    width: 340px;
+}
+
+.page-footer .container .gallery ul li{
+    display: inline;
+}
+
+.page-footer .container .gallery img{
+    width: 100px;
+    object-fit: cover;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.page-footer .page-footer-social-media .circle{
+    width: 35px;
+    height: 35px;
+    background-color:   #17a650;
+    border-radius: 35px;
+    margin-right: 15px;
+}
+
+.page-footer .page-footer-social-media{
+    display: flex;
+    padding-right: 0px;
+}
+
+.page-footer .page-footer-social-media img{
+    width: 20px ;
+}
+
+.page-footer .page-footer-social-media li a{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*..................Копирайт..................*/
+
+.copyright{
+    background-color: #005aa3;
+}
+
+.copyright .wrapper .container{
+    color: #fff;
+}
+
+.copyright .wrapper .container p{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
