@@ -43,24 +43,36 @@
         }
 
         li.mobile {
-            display:inline-block;
+            display: flex;
             a{
                 font-size: 17px;
             }
         }
-        ul.menu-popup {
-            text-align: center;
-            z-index: 1;
-            position: absolute;
+        .menu-popup{
+            display: flex;
             top: 0;
             bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            position: fixed;
             background-color: #ffffff;
             transform: translateX(100%);
             visibility: hidden;
             transition: .2s;
+            .menu{
+                display: inline-block;
+                margin: 50px 20px;
+                li{
+                    a{
+                        float: left;
+                        font-size: 20px;
+                    }
+                }
+            }
         }
-        ul.menu-popup.active { 
-            transform: translateX(-200%);
+        .menu-popup.visible{
+            transform: none;
             visibility: visible;
             transition: .2s;
         }

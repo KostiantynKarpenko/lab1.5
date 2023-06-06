@@ -9,5 +9,13 @@ const $menu = document.querySelector('.menu-popup')
 // $pageSliderBox.addEventListener('click', tgl);
 
 $menuButton.addEventListener('click', function(e) {
-    $menu.classList.toggle('active');
+    $menu.classList.toggle('visible');
 })
+
+$menu.addEventListener('click', function(e) {
+    console.log(e.target)
+    if(!e.target.classList.contains('mobile')) {
+        $menu.classList.remove('visible')
+    }
+})
+

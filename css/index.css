@@ -112,7 +112,7 @@ p {
   padding-right: 15px;
 }
 .page-header-menu li.mobile,
-.page-header-menu li.mobile.active {
+.page-header-menu .menu-popup {
   display: none;
 }
 .page-header-menu .menu {
