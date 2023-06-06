@@ -1,27 +1,41 @@
 // out: ../css/media.css
-
 @media (max-width: 1200px) {
+}
 
+@media (max-width: 900px) {
     .sctitle{
-        font-size: 60px;
+        font-size: 20px;
     }
-
     .bottom-line{
-        width: 180px;
-        height: 5px;
-        margin-top: 5px;
+        width: 70px;
+        height: 3px;
     }
-
+    .page-header-info{
+        .info{
+            display: inline-block;
+            img {
+                width: 20px;
+            }
+            li {
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        .social-media{
+            display: none;
+        }
+    }
     .page-header-menu {
         .wrapper{
             .name{
-                width: 230px;
+                width: 120px;
             }
         }
 
         .logo{
-            width: 70px;
-            padding-right: 15px;
+            width: 45px;
+            padding-right: 10px;
         }
 
         li.desktop {
@@ -30,10 +44,27 @@
 
         li.mobile {
             display:inline-block;
+            a{
+                font-size: 17px;
+            }
+        }
+        ul.menu-popup {
+            text-align: center;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            background-color: #ffffff;
+            transform: translateX(100%);
+            visibility: hidden;
+            transition: .2s;
+        }
+        ul.menu-popup.active { 
+            transform: translateX(-200%);
+            visibility: visible;
+            transition: .2s;
         }
     }
-
-
     .page-content {
         .company{
             text-align: center;
@@ -44,18 +75,17 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: 25%;
-                padding: 126px 0px;
+                padding: 100px 0px;
     
                 .welcome{
-                    padding: 30px 0;
-                    font-size: 70px;
+                    font-size: 20px;
                     color: #ffffff;
                     font-weight: bold;
                 }
     
                 .tagline{
-                    padding-bottom: 60px;
-                    font-size: 25px;
+                    padding-bottom: 40px;
+                    font-size: 15px;
                     color: #ffffff;
                     font-weight: bold;
                 }
@@ -64,18 +94,16 @@
                     display: flex;
                     justify-content: center;
                     box-sizing: border-box;
-                    font-size: 20px;
+                    font-size: 10px;
     
                     .box{
-                        width: 230px;
+                        width: 150px;
                         text-align: center;
                         box-sizing: border-box;
                         border-radius: 4px;
-                        margin: 0 15px;
     
                         p{
                             padding: 17px;
-                            font-size: 26px;
                         }
                     }
     
@@ -106,30 +134,25 @@
             }
         }
         .services {
-            p.sctitle{
-                font-size: 60px;
-            }
-            
+            padding: 0;
+            margin: 50px 0 0 0;
             .wrapper{
                 .container-grid{
                     text-align: center;
                     display:inline-block;
                     .cell{
                         width: 85%;
-                        height: 1000px;
-                        margin: 100px auto;
-
+                        height: auto;
+                        margin: 40px auto;
                         img{
                             width: 100%;
-                            height: 600px;
+                            height: 250px;
                         }
-
                         p.title{
-                            font-size: 70px;
+                            font-size: 20px;
                         }
-
                         p.subtitle{
-                            font-size: 40px;
+                            font-size: 15px;
                         }
                     }
                 }
@@ -141,50 +164,74 @@
                     text-align: center;
                     display: inline;
                     .cell{
-                        margin: 100px auto;
+                        margin: 30px auto;
                         height: auto;
                         width: 80%;
-    
                         img{
-                            width: 500px;
-                            height: 500px;
+                            @img-scale: 210px;
+                            width: @img-scale;
+                            height: @img-scale;
                         }
-    
                         p.title{
-                            font-size: 50px;
+                            font-size: 20px;
                         }
                     }
                 }
             }
         }
-        .projects{
+        .callback{
             .wrapper{
-                p.sctitle{
-                    font-size: 60px;
+                display: inline-block;
+                padding: 30px;
+                .box-text{
+                    width: 100%;
+                    .title{
+                        font-size:20px;
+                    }
+                    .subtitle{
+                        font-size: 15px;
+                    }
                 }
+                .box-input{
+                    width: 100%;
+                    select{
+                        padding:0;
+                    }
+                    @input-size: 100%;
+                    @input-paddings: 8;
+                    ul{
+                        input{
+                            padding:@input-paddings;
+                            width: @input-size;
+                            
+                        }
+                    }
+                    select{
+                        padding: @input-paddings;
+                        width: @input-size;
+                    }
+                    button{
+                        font-size: 15px;
+                        width: 130px;
+                    }
+                }
+            }
+        }
+        .projects{ 
+            padding: 50px 0 0 0;
+            .wrapper{
                 .container-grid{
                     display: inline;
-
+                    @img-height: 300px;
                     .cell{
                         width: 85%;
-
-                        @img-height: 700px;
-                        @bar-height: 130px;
                         height: @img-height;
-                        margin: 30px auto;
-
-                        img{
-                            height: 100%;
-                        }
+                        margin: 50px auto;
                         .box{
-                            height:@bar-height;
-                            top:-@bar-height;
-
                             &:hover{
                                 top: -100%;
                                 height: @img-height;
                                 background-color: #084d82c1;
-
                                 p.subtitle{
                                     visibility: visible;
                                     opacity: 1;
@@ -192,74 +239,69 @@
                                 }
                             }
                         }
-                        
                         p.title{
-                            font-size: 57px;
-                            padding-top: 30px;
+                            font-size: 20px;
                             white-space: nowrap;
+                            padding: auto;
                         }
-
                         p.subtitle{
-                            font-size:50px;
+                            font-size:15px;
                         }
                     }
                 }
             } 
         }
-        .news{
+        .statistics{
             .wrapper{
-                p.sctitle{
-                    font-size: 60px;
+                .cell{
+                    width: auto;
+                    margin: 0 auto;
+                    .number{
+                        font-size: 30px;
+
+                    }
+                    .text{
+                        font-size:15px;
+                    }
                 }
+            }
+        }
+        .news{
+            padding: 50px 0 0 0;
+            .wrapper{
                 .container-grid{
                     display: inline;
                     .cell{
                         margin: 50px auto;
-                        width: 80%;
+                        width: 100%;
                         height: auto;
-
                         img{
-                            height: 600px;
+                            height: 300px;
                         }
-
                         .container{
                             p.title{
-                                font-size: 50px;
+                                font-size: 20px;
                             }
-    
                             p.subtitle{
-                                font-size: 40px;
+                                font-size: 15px;
                             }
-    
                             .info{
-                                .date-vector{
-                                    width: 50px;
-                                    height: 50px;
+                                .date-vector, .author-vector{
+                                    width: 20px;
+                                    height: 20px;
                                 }
-        
-                                .date{
-                                    font-size: 30px;
-                                }
-        
-                                .author-vector{
-                                    height: 50px;
-                                    width: 50px;
-                                }
-            
-                                .author{
-                                    font-size: 30px;
+                                .date, .author{
+                                    font-size: 10px;
                                 }
                             }
-
                             .vertical-line{
 
                             }
-
                             .box{
-                                width: 250px;
-                                padding: 15px;
+                                float: right;
+                                padding: 5px;
                                 p{
-                                    font-size: 35px;
+                                    font-size: 14px;
                                 }
                             }
                         }
@@ -282,190 +324,118 @@
                     display: inline-block;
                     margin: auto 0;
                     .name{
-                        font-size: 50px;
+                        font-size: 20px;
                         padding-bottom: 7px;
                     }
                     .occupation{
-                        font-size: 40px;
+                        font-size: 18px;
                         font-weight: 400;
                     }
                     .text{
-                        font-size: 28px;
+                        font-size: 15px;
                         font-weight: 400;
                     }
                     img{
-                        @avatar:250px;
+                        @avatar:100px;
                         width: @avatar;
                         height: @avatar;
                         margin: auto;
                     }
-
                     .cell{
+                        padding: 15px 0;
                         width: 100%;
                     }
-                    .cell.left{
-                        margin-right: 0;
-                    }
-                    .cell.right{
-                        margin-left: 0;
+                    .cell.left, .cell.right{
+                        margin: 40px auto;
                     }
                 }
             }
         }
         .sign-up{
+
+            padding: 30px 0;
             .wrapper{
                 .container-grid{
+                    padding: 0;
                     .box{
-                        width: 900px;
+                        width: 100%;
                         p{
-                            font-size: 25px;
+                            margin: 30px 0;
+                            font-size: 15px;
                         }
                     }
-
                     .input{
-                        padding:50px;
+                        margin: 10px;
                     }
-
                     input{
-                        font-size: 40px;
+                        font-size: 15px;
                     }
-
                     button{
-                        width: 300px;
-                        font-size: 35px;
+                        padding: 0 15px;
+                        font-size: 12px;
                     }
-                    
                 }
             }
         }
     }
-}
-
-@media (max-width: 900px) {
-
-    .page-content {
-
-        .company{
+    .page-footer{
+        .wrapper{
+            display: inline-block;
             text-align: center;
-    
-            .container{
-                background-color: #084d828e;
-                background-image: linear-gradient(to right, #084d82af, #084d82af),url(../img/business.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 25%;
-                padding: 126px 0px;
-    
-                .welcome{
-                    padding: 30px 0;
-                    font-size: 70px;
-                    color: #ffffff;
-                    font-weight: bold;
+            .cell{
+                width: 90%;
+                margin: auto;
+            }
+            h1{
+                font-size: 15px;
+            }
+            .info{
+                .purpose{
+                    p{
+                        font-size: 15px;
+                    }
                 }
-    
-                .tagline{
-                    padding-bottom: 60px;
-                    font-size: 25px;
-                    color: #ffffff;
-                    font-weight: bold;
+                .company{
+                    a{
+                        justify-content: center;
+                    }
                 }
-    
-                .buttons{
-                    display: flex;
+                .page-footer-social-media{
                     justify-content: center;
-                    box-sizing: border-box;
-                    font-size: 20px;
-    
-                    .box{
-                        width: 1000px;
-                        text-align: center;
-                        box-sizing: border-box;
-                        border-radius: 4px;
-                        margin: 0 15px;
-    
-                        p{
-                            padding: 17px;
-                            font-size: 30px;
-                        }
-                    }
-    
-                    .our-projects{
-                        .box{
-                            background-color: rgb(0, 197, 187);
-                        }
-    
-                        p{
-                            color: #ffffff;
-                        }
-                    }
-    
-                    .learn-more{
-                        .box{
-                            background-color: rgb(232, 232, 232);
-                        }
-        
-                        p{
-                            color: #595959;
-                        }
+                    .circle{
+                        margin: 10px;
                     }
                 }
-                .business{
-                    width: 1905px;
-                    height: 500px;
+
+            }
+            .contact-us{
+                margin: 15px;
+                a{
+                    font-size: 12px;
+                }
+                ul{
+                    justify-content: center;
+                    li{
+                        margin: 15px auto;
+                    }
+                }
+                img{
+                    width: 25px;
+                }
+            }
+            .company-pages{
+                a{
+                    font-size: 15px;
                 }
             }
         }
 
-        .services {
-            .container{
-                text-align: center;
-    
-                .wrapper{
-                    p{
-                        color: #2c2c2c;
-                        font-size: 25px;
-                        font-weight: bold;
-                        padding-bottom: 7px;
-                    }
-                }
-            }
-    
-            .container-grid{
-                .wrapper{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
-                    padding-top: 3%;
-    
-                    .cell{
-                        width: 31%;
-                        height: 450px;
-                        background-color: #084d82;
-    
-                        img{
-                            width: 100%;
-                            height: 225px;
-                            object-fit: cover;
-                        }
-    
-                        p.title{
-                            font-size: 23px;
-                            color: #fff;
-                            font-weight: 100;
-                            text-align: left;
-                            padding: 12px;
-                        }
-    
-                        p.subtitle{
-                            font-size: 20px;
-                            color: #fff;
-                            font-weight: 100;
-                            text-align: left;
-                            padding: 12px;
-                        }
-                    }
-                }
+    }
+    .copyright{
+        .wrapper{
+            
+            p{
+                font-size: 10px;
             }
         }
     }
