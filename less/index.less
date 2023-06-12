@@ -807,8 +807,14 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p{
                     width: 35px;
                     height: 35px;
                     background-color:   #17a650;
-                    border-radius: 35px;
+                    border-radius: 100%;
                     margin-right: 15px;
+                    transition: .2s;
+                    &:hover{
+                        background-color:   #2bb763;
+                        border-radius: 20px;
+                        transition: .2s;
+                    }
                 }
         
                 img{

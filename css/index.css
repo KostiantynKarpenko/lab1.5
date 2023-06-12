@@ -708,8 +708,14 @@ p {
   width: 35px;
   height: 35px;
   background-color: #17a650;
-  border-radius: 35px;
+  border-radius: 100%;
   margin-right: 15px;
+  transition: 0.2s;
+}
+.page-footer .wrapper .info .page-footer-social-media .circle:hover {
+  background-color: #2bb763;
+  border-radius: 20px;
+  transition: 0.2s;
 }
 .page-footer .wrapper .info .page-footer-social-media img {
   width: 20px ;
